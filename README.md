@@ -34,4 +34,25 @@ Learners can complete the test, submit their answers, and instantly see:
 ---
 
 ## 🧩 File Structure
+aptis_practice/
+│
+├── aptis_practice.html # The complete self-contained simulator
+├── README.md # This documentation
+└── (optional) /assets # For screenshots or future expansions
 
+
+All HTML, CSS, and JavaScript are embedded directly into `aptis_practice.html` for simplicity and portability.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone or Download
+You can clone the repository or download the HTML file directly.
+
+```bash
+git clone https://github.com/<your-username>/aptis-practice.git
+cd aptis-practice
+
+
+Alternatively, download aptis_practice.html manually and open it in any web browser.
