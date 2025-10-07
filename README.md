@@ -1,22 +1,19 @@
 # 🧠 Aptis Grammar & Vocabulary Practice Test Simulator
 
-An interactive, browser-based simulation of the **Aptis Grammar & Vocabulary Test**, developed in pure **HTML, CSS, and JavaScript**.  
-This project allows learners to **practice Aptis-style English grammar and vocabulary questions** under realistic test conditions, complete with **automatic scoring, instant feedback, and visual results.**
+An interactive, browser-based simulation of the **Aptis Grammar & Vocabulary Test**, built entirely with **HTML, CSS, and JavaScript**. This lightweight app allows learners to practice both grammar and vocabulary questions in a realistic format, complete with automatic scoring and instant feedback.
 
 ---
 
 ## 📋 Overview
 
-The **Aptis Practice Test Simulator** replicates the structure and feel of the official Aptis Core test (Grammar & Vocabulary component):
+The **Aptis Practice Test Simulator** reproduces the structure of the official Aptis Core test. It includes:
 
-- **Grammar Section:** 25 multiple-choice questions that test written English grammar and structure.  
-- **Vocabulary Section:** 25 questions testing synonym recognition, word definitions, collocations, and contextual word usage.  
-- **Total:** 50 questions, completed in an open-ended practice format (no login or data collection required).
+- **Grammar Section:** 25 multiple-choice grammar questions covering tense, structure, and word order.  
+- **Vocabulary Section:** 25 multiple-choice questions testing synonyms, collocations, word definitions, and contextual usage.  
+- **Total:** 50 questions.  
+- **Automatic Scoring:** Displays the final score and highlights correct/incorrect answers.
 
-Learners can complete the test, submit their answers, and instantly see:
-- ✅ Correct and ❌ Incorrect items highlighted  
-- 🧮 A final score displayed out of 50  
-- 📈 Color-coded question feedback to guide review and improvement
+Learners can review performance immediately after submission, helping identify areas for improvement before taking the official Aptis assessment.
 
 ---
 
@@ -24,35 +21,14 @@ Learners can complete the test, submit their answers, and instantly see:
 
 | Feature | Description |
 |----------|-------------|
-| **Real Aptis structure** | Two sections of 25 questions each: Grammar and Vocabulary |
-| **Interactive scoring** | Auto-checks answers and displays your score instantly |
-| **Color-coded feedback** | Green = Correct, Red = Incorrect |
-| **Lightweight & offline** | Runs entirely in your browser – no server, no backend |
-| **Mobile-friendly** | Fully responsive layout, readable on phones and tablets |
-| **Easily customizable** | Questions, colors, and logic can be updated within one HTML file |
+| ✅ **Authentic Aptis structure** | Two 25-question sections mirroring the official format |
+| ⚡ **Automatic scoring** | Instantly grades all 50 questions and displays results |
+| 🎨 **Color-coded feedback** | Green = correct, Red = incorrect |
+| 💻 **Completely offline** | Runs entirely in your browser — no server required |
+| 📱 **Mobile responsive** | Designed to look clean on desktop, tablet, and phone |
+| 🛠️ **Customizable** | All content editable in one self-contained HTML file |
 
 ---
 
 ## 🧩 File Structure
-aptis_practice/
-│
-├── aptis_practice.html # The complete self-contained simulator
-├── README.md # This documentation
-└── (optional) /assets # For screenshots or future expansions
 
-
-All HTML, CSS, and JavaScript are embedded directly into `aptis_practice.html` for simplicity and portability.
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone or Download
-You can clone the repository or download the HTML file directly.
-
-```bash
-git clone https://github.com/<your-username>/aptis-practice.git
-cd aptis-practice
-
-
-Alternatively, download aptis_practice.html manually and open it in any web browser.
